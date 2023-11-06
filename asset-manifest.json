@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/snecktest/static/css/main.28b6e44f.css",
+    "main.css": "/snecktest/static/css/main.e59d994e.css",
     "main.js": "/snecktest/static/js/main.aa7ea32b.js",
     "static/media/Game-Over-PNG-Transparent-Image.png": "/snecktest/static/media/Game-Over-PNG-Transparent-Image.7cdcb481efe531862185.png",
     "static/media/start_game.jpg": "/snecktest/static/media/start_game.ff523101eadbd60f716e.jpg",
     "static/media/free-icon-snake.png": "/snecktest/static/media/free-icon-snake.cdaa7a93d5d42665111d.png",
     "index.html": "/snecktest/index.html",
-    "main.28b6e44f.css.map": "/snecktest/static/css/main.28b6e44f.css.map",
+    "main.e59d994e.css.map": "/snecktest/static/css/main.e59d994e.css.map",
     "main.aa7ea32b.js.map": "/snecktest/static/js/main.aa7ea32b.js.map"
   },
   "entrypoints": [
-    "static/css/main.28b6e44f.css",
+    "static/css/main.e59d994e.css",
     "static/js/main.aa7ea32b.js"
   ]
 }
