@@ -37,12 +37,14 @@ const App: React.FC = () => {
     [FoodType.Third]: number;
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const foodValues: IFoodValues = {
     [FoodType.First]: 1,
     [FoodType.Second]: 5,
     [FoodType.Third]: 10,
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   function generateFood(): { x: number; y: number; type: FoodType } {
     const x = Math.floor(Math.random() * BOARD_LENGTH);
     const y = Math.floor(Math.random() * BOARD_LENGTH);
