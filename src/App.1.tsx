@@ -1,6 +1,5 @@
 import React from "react";
 import { useCallback, useEffect, useState } from "react";
-import "./App.css";
 import Food from "./components/Food/Food";
 import GameOverBoard from "./components/GameOverBoard/GameOverBoard";
 import MouseController from "./components/MouseController/MouseController";
@@ -12,7 +11,7 @@ import { handlePlayerNameSubmit } from "./servise";
 import HighScores from "./components/HighScores/HighScores";
 import PauseButton from "./components/PauseButton/PauseButton";
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   const BOARD_LENGTH: number = 10;
   const [direction, setDirection] = useState<string>("right");
   const [snake, setSnake] = useState<ISnake[]>([
@@ -188,7 +187,7 @@ const App: React.FC = () => {
         setIsPaused(true);
       }
     }
-  }, [food, foodValues, generateFood, level, snake, speed]);
+  }, [food]);
 
   useEffect(() => {
     document.addEventListener("keydown", pressKeyHangler);
@@ -287,5 +286,3 @@ const App: React.FC = () => {
     </div>
   );
 };
-
-export default App;
