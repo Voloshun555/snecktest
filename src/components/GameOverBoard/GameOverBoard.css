@@ -1,0 +1,15 @@
+.gameOverBoard {
+  width: 100%;
+  height: 100%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 10px;
+  align-items: center;
+  gap: 5px;
+  background: url("../../images/Game-Over-PNG-Transparent-Image.png") center /
+    contain no-repeat;
+}

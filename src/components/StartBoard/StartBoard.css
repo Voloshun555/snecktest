@@ -1,0 +1,17 @@
+.startBoard {
+    min-width: 320px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: url('../../images/start_game.jpg') center / contain no-repeat;
+  }
+
+  .text-start {
+    font-size: 18px;
+    color: cadetblue;
+    text-shadow: 2px 2px 2px #000;
+  }
+  

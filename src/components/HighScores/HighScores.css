@@ -1,0 +1,58 @@
+.gamers_list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: block;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10.4px 6px 0 6px;
+  border-color: cadetblue transparent transparent transparent;
+}
+
+select {
+  border: 1px solid cadetblue;
+  border-radius: 5px;
+  background-color: #c0c0c0;
+  font-size: 16px;
+  color: cadetblue;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  padding: 5px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select option {
+  background-color: #c0c0c0;
+  color: cadetblue;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+select option:checked {
+  background-color: #007bff;
+  color: cadetblue;
+}

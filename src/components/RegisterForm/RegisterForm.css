@@ -1,0 +1,49 @@
+.container_form {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid cadetblue;
+  position: relative;
+  margin: 10px auto;
+  width: 500px;
+  height: auto;
+  text-align: start;
+  padding: 10px;
+  background-color: transparent;
+  box-shadow: 2px 2px 2px dimgray;
+}
+
+.input_label {
+  padding: 7px;
+  border-radius: 7px;
+  background-color: #c0c0c0;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+  color: #000;
+  font-size: 18px;
+  border: 1px solid cadetblue;
+}
+
+.input_label:focus {
+  outline-color: cadetblue;
+  color: cadetblue;
+}
+
+.btn {
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid cadetblue;
+  color: cadetblue;
+  width: 120px;
+  border-radius: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: cadetblue;
+}
